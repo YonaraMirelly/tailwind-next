@@ -8,6 +8,11 @@ export default function Home() {
       </h1>
       <h2>Hello </h2>
       <p>Hello </p>
+      <button className="bg-sky-500 px-4 py-2 rounded-md font-mediam mt-4 enabled:hover:bg-sky-600 disabled:opacity-60 disabled:cursor-not-allowed">
+        
+        Sing in
+
+      </button>
 
 
     </div>
