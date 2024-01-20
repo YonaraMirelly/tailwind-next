@@ -7,8 +7,7 @@ export default function Home() {
         <h1 className="font-bold text-3xl sm:text-4xl lg:text-5xl">
           Rapidly build modern websites without ever leaving your HTML.
         </h1>
-        <p className="mt-4 dark:text-slate-400">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
-        </p>
+        <p className="mt-4 dark:text-slate-400">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.</p>
         <button className="bg-sky-500 dark:bg-sky-400 dark:text-sky-950 text-white px-4 py-2 rounded-md font-mediam mt-4 enabled:hover:bg-sky-600 disabled:opacity-60 disabled:cursor-not-allowed">
           
           Sing in
