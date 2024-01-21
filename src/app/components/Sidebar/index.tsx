@@ -2,6 +2,7 @@ import { Logo } from "./Logo"
 import { BarChart, CheckSquare, Cog, Flag, Home, LifeBuoy, Search, SquareStack, Users } from 'lucide-react'
 import { NavItem } from "./Navitem"
 import { UsedSpaceWidget } from "./UsedSpaceWidget"
+import { Profile } from "./Profile"
 export function Sidebar(){
   return (
     <aside className=" flex flex-col gap-6 border-r border-zinc-200 px-5 py-8 ">
@@ -29,6 +30,9 @@ export function Sidebar(){
         </nav>
 
         <UsedSpaceWidget />
+
+        <div className="h-px bg-zinc-200" />
+        <Profile />
       </div>
     </aside>
   )
