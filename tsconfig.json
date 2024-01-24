@@ -20,8 +20,6 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@/components/*": ["./src/components/*"]
-      // Adicione outros aliases conforme necessário
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
