@@ -6,6 +6,7 @@ import * as FileInput from './components/Form/FileInput'
 import { Select } from "./components/Form/Select";
 import { SelectItem } from "./components/Form/Select/SelectItem";
 import { Textarea } from "./components/Form/Textarea";
+import { Button } from "./components/Botton";
 
 
 export default function Home() {
@@ -23,17 +24,8 @@ export default function Home() {
             <span className="text-sm text-zinc-500">Update your photo and personal details here.</span>
           </div>
           <div className="flex items-center gap-2">
-            <button type="button" className="rounded-lg px-4 py-2 text-sm font-semibold shadow-sm border border-zinc-300 text-zinc-700 hover:bg-zinc-200"
-            >
-              Cancel
-            </button>
-            <button 
-              type="submit" 
-              form='settings'
-              className="rounded-lg px-4 py-2 text-sm font-semibold shadow-sm bg-violet-600 text-white hover:bg-violet-800"
-            >
-              Save
-            </button>
+          <Button variant='outline' type="button">Cancel</Button>
+            <Button variant="primary" type="submit" form="settings">Save</Button>
 
           </div>
         </div>
@@ -184,16 +176,12 @@ export default function Home() {
           </div>
 
           <div className="flex items-center justify-end gap-2 pt-5">
-            <button type="button" className="rounded-lg px-4 py-2 text-sm font-semibold shadow-sm border border-zinc-300 text-zinc-700 hover:bg-zinc-200"
-            >
-              Cancel
-            </button>
-            <button 
-              type="submit" 
-              className="rounded-lg px-4 py-2 text-sm font-semibold shadow-sm bg-violet-600 text-white hover:bg-violet-800"
-            >
-              Save
-            </button>
+          <Button variant='outline' type="button">
+            Cancel
+          </Button>
+          <Button variant="primary" type="submit" form="settings">
+            Save
+          </Button>
 
           </div>
 
