@@ -1,10 +1,11 @@
 
 import { SettingsTabs } from "./components/SettingsTabs";
 import * as Input from "./components/Input"
-import {  Mail } from "lucide-react";
+import {  Bold, Italic, Link, List, ListOrdered, Mail } from "lucide-react";
 import * as FileInput from './components/Form/FileInput'
 import { Select } from "./components/Form/Select";
 import { SelectItem } from "./components/Form/Select/SelectItem";
+import { Textarea } from "./components/Form/TextArea";
 
 
 export default function Home() {
@@ -129,7 +130,40 @@ export default function Home() {
                 Write a short introduction.
               </span>
             </label>
-            <div></div>
+            <div className="space-y-3">
+              <div className="grid gap-3 grid-cols-2">
+                <Select placeholder="" defaultValue="normal">
+                  <SelectItem value="normal" defaultChecked text="Normal Text"/>
+                  <SelectItem value="md" text="Markdown"/>
+                </Select>
+
+                <div className="flex items-center gap-1">
+                  <button type="button" className="p-2 hover:bg-zinc-100 rounded-md">
+                    <Bold className="w-4 h-4 text-zinc-500" strokeWidth={3}/>
+                  </button>
+
+                  <button type="button" className="p-2 hover:bg-zinc-100 rounded-md">
+                    <Italic className="w-4 h-4 text-zinc-500" strokeWidth={3}/>
+                  </button>
+
+                  <button type="button" className="p-2 hover:bg-zinc-100 rounded-md">
+                    <Link className="w-4 h-4 text-zinc-500" strokeWidth={3}/>
+                  </button>
+
+                  <button type="button" className="p-2 hover:bg-zinc-100 rounded-md">
+                    <List className="w-4 h-4 text-zinc-500" strokeWidth={3}/>
+                  </button>
+
+                  <button type="button" className="p-2 hover:bg-zinc-100 rounded-md">
+                    <ListOrdered className="w-4 h-4 text-zinc-500" strokeWidth={3}/>
+                  </button>
+                </div>
+              </div>
+              
+              <Textarea 
+                id="bio"
+                defaultValue="I'm a studant UFRPE :)"/>
+            </div>
           </div>
 
           <div className="grid gap-3 grid-cols-form pt-5">
