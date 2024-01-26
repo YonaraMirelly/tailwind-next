@@ -167,7 +167,7 @@ export default function Home() {
               
               <Textarea 
                 id="bio"
-                defaultValue="I'm a studant UFRPE :)"/>
+                defaultValue=" I am an undergraduate student in Information Systems at the Federal Rural University of Pernambuco. Passionate about both technology and music, I strike the perfect balance between codes and chords. When I'm not immersed in the world of programming, I dedicate myself to playing the guitar, creating melodies that translate my emotions. "/>
             </div>
           </div>
 
