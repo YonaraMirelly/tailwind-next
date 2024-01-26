@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## Frontend-Formulário-TailwindCSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este repositório é um playground para explorar as potencialidades do Tailwind CSS, combinando-o com bibliotecas de animação de ponta. O formulário online resultante não apenas mantém uma estética visualmente atraente, mas também oferece uma experiência de usuário fluida e envolvente. As animações cuidadosamente integradas trazem vida ao formulário, proporcionando uma interação memorável para os usuários.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contribuições são bem-vindas! Sinta-se à vontade para enviar sugestões, correções ou novos recursos através de pull requests.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+##
 
-## Learn More
+## P.S.: 
 
-To learn more about Next.js, take a look at the following resources:
+Incluso no projeto, implementei um sistema inteligente que sincroniza automaticamente o modo de exibição da interface com as preferências de tema do sistema operacional. Se o seu sistema estiver configurado para o modo "claro", a interface do usuário também será ajustada para um visual claro correspondente. Da mesma forma, se o sistema estiver definido para o modo "escuro", a interface se transformará em um atraente modo "dark".
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Dentro do arquivo "FileList.tsx", você possui a capacidade de personalizar o estado da barra de carregamento. Alterando o estado para "complete", a barra de carregamento atingirá 100%, indicando que o processo foi concluído com sucesso. Optando por "progress", a barra se preencherá até 80%, refletindo um estado de carregamento avançado. Em caso de erro, definindo o estado para "error", a barra exibirá uma mensagem de erro, proporcionando uma experiência informativa e intuitiva.
