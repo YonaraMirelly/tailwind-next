@@ -7,7 +7,7 @@ export interface InputProps{}
 type InputPrefixProps = ComponentProps<'div'>
 
 export function InputPrefix(props: InputPrefixProps) {
-  return <div {...props} />
+  return <div className="flex-shrink" {...props} />
 }
 
 type InputControlProps = ComponentProps<'input'>
