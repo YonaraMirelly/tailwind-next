@@ -110,7 +110,7 @@ export default function Home() {
               Country
             </label>
             <Select placeholder="Select a country...">
-              <SelectItem value="br" text="Brasil"/>
+              <SelectItem value="br" text="Brazil"/>
               <SelectItem value="us" text="EUA"/>
             </Select>
           </div>
